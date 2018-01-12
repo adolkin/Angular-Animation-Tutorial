@@ -10,6 +10,8 @@ import { HeroService } from './hero.service';
 import { EnterLeaveComponent } from './enter-leave/enter-leave.component';
 import { EnterLeaveStatesComponent } from './enter-leave-states/enter-leave-states.component';
 import { AutoComponent } from './auto/auto.component';
+import { TimingComponent } from './timing/timing.component';
+import { MultiStepComponent } from './multi-step/multi-step.component';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { AutoComponent } from './auto/auto.component';
     BasicComponent,
     EnterLeaveComponent,
     EnterLeaveStatesComponent,
-    AutoComponent
+    AutoComponent,
+    TimingComponent,
+    MultiStepComponent
   ],
   imports: [
     BrowserModule,
