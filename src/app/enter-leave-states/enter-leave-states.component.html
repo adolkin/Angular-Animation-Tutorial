@@ -1,0 +1,10 @@
+<ul>
+  <li *ngFor="let hero of heroes"
+      (click)="hero.toggleState()"
+      [@heroState]="hero.state">
+    {{hero.name}}
+  </li>
+</ul>
+<button (click)="remove()">Remove</button>
+<button (click)="addInactive()">Add Inactive </button>
+<button (click)="addActive()">Add Active </button>
