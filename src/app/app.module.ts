@@ -13,6 +13,7 @@ import { AutoComponent } from './auto/auto.component';
 import { TimingComponent } from './timing/timing.component';
 import { MultiStepComponent } from './multi-step/multi-step.component';
 import { GroupsComponent } from './groups/groups.component';
+import { CallbackComponent } from './callback/callback.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { GroupsComponent } from './groups/groups.component';
     AutoComponent,
     TimingComponent,
     MultiStepComponent,
-    GroupsComponent
+    GroupsComponent,
+    CallbackComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,4 @@
+import { CallbackComponent } from './callback/callback.component';
 import { MultiStepComponent } from './multi-step/multi-step.component';
 import { AutoComponent } from './auto/auto.component';
 import { BasicComponent } from './basic/basic.component';
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'timing', component: TimingComponent },
   { path: 'multistep', component: MultiStepComponent },
   { path: 'group', component: GroupsComponent },
+  { path: 'callback', component: CallbackComponent },
 ]
 
 @NgModule({
