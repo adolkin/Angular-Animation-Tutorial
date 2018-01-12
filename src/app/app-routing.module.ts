@@ -6,6 +6,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { EnterLeaveComponent } from './enter-leave/enter-leave.component';
 import { EnterLeaveStatesComponent } from './enter-leave-states/enter-leave-states.component';
 import { TimingComponent } from './timing/timing.component';
+import { GroupsComponent } from './groups/groups.component';
 
 const routes: Routes = [
   { path: 'basic', component: BasicComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'auto', component: AutoComponent },
   { path: 'timing', component: TimingComponent },
   { path: 'multistep', component: MultiStepComponent },
+  { path: 'group', component: GroupsComponent },
 ]
 
 @NgModule({

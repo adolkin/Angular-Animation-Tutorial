@@ -12,6 +12,7 @@ import { EnterLeaveStatesComponent } from './enter-leave-states/enter-leave-stat
 import { AutoComponent } from './auto/auto.component';
 import { TimingComponent } from './timing/timing.component';
 import { MultiStepComponent } from './multi-step/multi-step.component';
+import { GroupsComponent } from './groups/groups.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { MultiStepComponent } from './multi-step/multi-step.component';
     EnterLeaveStatesComponent,
     AutoComponent,
     TimingComponent,
-    MultiStepComponent
+    MultiStepComponent,
+    GroupsComponent
   ],
   imports: [
     BrowserModule,

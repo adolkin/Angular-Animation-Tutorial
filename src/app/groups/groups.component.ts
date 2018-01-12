@@ -1,15 +1,17 @@
+import { groupAnimation } from './../_animations/group.animation';
 import { autoAnimation } from './../_animations/auto.animation';
 import { Component, OnInit } from '@angular/core';
 import { Hero } from '../hero';
 import { HeroService } from '../hero.service';
 
+
 @Component({
-  selector: 'app-auto',
-  templateUrl: './auto.component.html',
-  styleUrls: ['./auto.component.css'],
-  animations: [autoAnimation]
+  selector: 'app-groups',
+  templateUrl: './groups.component.html',
+  styleUrls: ['./groups.component.css'],
+  animations: [groupAnimation]
 })
-export class AutoComponent implements OnInit {
+export class GroupsComponent implements OnInit {
 
   heroes: Hero[];
 
@@ -21,7 +23,7 @@ export class AutoComponent implements OnInit {
 
   getHeroes(): void {
     this.heroService.getHeroes()
-        .subscribe(heroes => this.heroes = heroes);
+      .subscribe(heroes => this.heroes = heroes);
   }
 
   remove() {
@@ -32,5 +34,6 @@ export class AutoComponent implements OnInit {
     let hero = new Hero('Luke');
     this.heroes.push(hero);
   }
+
 
 }
