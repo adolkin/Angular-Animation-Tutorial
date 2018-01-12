@@ -8,7 +8,7 @@ import { HEROES } from './mock-heroes';
 
 @Injectable()
 export class HeroService {
-
+  heroes: Hero[] = [];
   constructor() { }
 
   getHeroes(): Observable<Hero[]> {

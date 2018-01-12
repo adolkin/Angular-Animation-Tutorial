@@ -1,0 +1,8 @@
+<ul>
+  <li *ngFor="let hero of heroes"
+      [@flyInOut]="'in'">
+    {{hero.name}}
+  </li>
+</ul>
+<button (click)="remove()">Remove</button>
+<button (click)="add()">Add</button>

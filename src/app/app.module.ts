@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { BasicComponent } from './basic/basic.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { HeroService } from './hero.service';
+import { EnterLeaveComponent } from './enter-leave/enter-leave.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    BasicComponent
+    BasicComponent,
+    EnterLeaveComponent
   ],
   imports: [
     BrowserModule,
