@@ -2,7 +2,7 @@
   <li *ngFor="let hero of heroes"
       (click)="hero.toggleState()"
       [@heroState]="hero.state">
-    {{hero.name}}
+      {{hero.name}} - {{hero.state}}
   </li>
 </ul>
 <button (click)="remove()">Remove</button>

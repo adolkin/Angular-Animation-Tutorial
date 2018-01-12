@@ -1,3 +1,4 @@
+import { AutoComponent } from './auto/auto.component';
 import { BasicComponent } from './basic/basic.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -7,7 +8,8 @@ import { EnterLeaveStatesComponent } from './enter-leave-states/enter-leave-stat
 const routes: Routes = [
   { path: 'basic', component: BasicComponent },
   { path: 'enterleave', component: EnterLeaveComponent },
-  { path: 'enterleavestates', component: EnterLeaveStatesComponent}
+  { path: 'enterleavestates', component: EnterLeaveStatesComponent},
+  { path: 'auto', component: AutoComponent}
 ]
 
 @NgModule({

@@ -30,12 +30,12 @@ export class EnterLeaveStatesComponent implements OnInit {
   }
 
   addInactive() {
-    let hero = new Hero('Inactive', 'inactive');
+    let hero = new Hero('1', 'inactive');
     this.heroes.push(hero);
   }
 
   addActive() {
-    let hero = new Hero('Active', 'active');
+    let hero = new Hero('2', 'active');
     this.heroes.push(hero);
   }
 

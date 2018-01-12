@@ -9,6 +9,7 @@ import { AppRoutingModule } from './/app-routing.module';
 import { HeroService } from './hero.service';
 import { EnterLeaveComponent } from './enter-leave/enter-leave.component';
 import { EnterLeaveStatesComponent } from './enter-leave-states/enter-leave-states.component';
+import { AutoComponent } from './auto/auto.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { EnterLeaveStatesComponent } from './enter-leave-states/enter-leave-stat
     AppComponent,
     BasicComponent,
     EnterLeaveComponent,
-    EnterLeaveStatesComponent
+    EnterLeaveStatesComponent,
+    AutoComponent
   ],
   imports: [
     BrowserModule,
