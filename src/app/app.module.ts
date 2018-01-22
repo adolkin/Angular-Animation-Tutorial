@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-
 import { AppComponent } from './app.component';
 import { BasicComponent } from './basic/basic.component';
 import { AppRoutingModule } from './/app-routing.module';
@@ -14,6 +13,9 @@ import { TimingComponent } from './timing/timing.component';
 import { MultiStepComponent } from './multi-step/multi-step.component';
 import { GroupsComponent } from './groups/groups.component';
 import { CallbackComponent } from './callback/callback.component';
+import { TodosComponent } from './todos/todos.component';
+import { ZippyComponent } from './zippy/zippy.component';
+import { ZippyChildComponent } from './zippy/zippy-child/zippy-child.component';
 
 
 @NgModule({
@@ -26,7 +28,10 @@ import { CallbackComponent } from './callback/callback.component';
     TimingComponent,
     MultiStepComponent,
     GroupsComponent,
-    CallbackComponent
+    CallbackComponent,
+    TodosComponent,
+    ZippyComponent,
+    ZippyChildComponent
   ],
   imports: [
     BrowserModule,

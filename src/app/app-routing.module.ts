@@ -1,3 +1,4 @@
+import { TodosComponent } from './todos/todos.component';
 import { CallbackComponent } from './callback/callback.component';
 import { MultiStepComponent } from './multi-step/multi-step.component';
 import { AutoComponent } from './auto/auto.component';
@@ -8,6 +9,7 @@ import { EnterLeaveComponent } from './enter-leave/enter-leave.component';
 import { EnterLeaveStatesComponent } from './enter-leave-states/enter-leave-states.component';
 import { TimingComponent } from './timing/timing.component';
 import { GroupsComponent } from './groups/groups.component';
+import { ZippyComponent } from './zippy/zippy.component';
 
 const routes: Routes = [
   { path: 'basic', component: BasicComponent },
@@ -18,12 +20,14 @@ const routes: Routes = [
   { path: 'multistep', component: MultiStepComponent },
   { path: 'group', component: GroupsComponent },
   { path: 'callback', component: CallbackComponent },
+  { path: 'todos', component: TodosComponent },
+  { path: 'zippy', component: ZippyComponent }
 ]
 
 @NgModule({
   imports: [
     RouterModule.forRoot(routes),
   ],
-  exports: [ RouterModule ]
+  exports: [RouterModule]
 })
 export class AppRoutingModule { }

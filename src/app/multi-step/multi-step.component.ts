@@ -1,5 +1,5 @@
 import { multiStepAnimation } from './../_animations/multi-step.animation';
-import { autoAnimation } from './../_animations/auto.animation';
+
 import { Component, OnInit } from '@angular/core';
 import { Hero } from '../hero';
 import { HeroService } from '../hero.service';
